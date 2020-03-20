@@ -7,8 +7,6 @@
 
 
 ## Foreword
-
-
 It all started with a double injunction: on the one hand holding a training course in Zambia on behalf of the ZNBC and on the other hand my designation as P.O on a backoffice.
 
 
