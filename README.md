@@ -10,10 +10,11 @@
 
 It all started with a double injunction: on the one hand holding a training course in Zambia on behalf of the ZNBC and on the other hand my designation as P.O on a backoffice.
 
-1. The training required me to transcribe in an intuitive and operational way all the know-how patiently gathered about digital project management with Agile Scrum, retaining a maximum of requirements and good practices. To spice up the exercise, it had to be done under constraints as budget, technics and human resources were not the same. This is the subject of Book 1 of this trilogy.
+
+1. The Book #1 retrieves all the materials that I have brought with me for a training in Zambia on how to manage and run a news website. I made as intuitive and operational as possible. For a P.O, it is transcription of a “know-how” patiently gathered about digital project management with Agile Scrum. It has been transposed mostly to WordPress so anyone can leverage on it. It retains a maximum of good practices under usual constraints like budget, technics and team.
 
 
-2. My experience in P.O forced me to take a strong interest in testing. The idea was to overcome with "agility" one of the most difficult obstacle for a webapplication (backoffice, website): user acceptance testing. In comparison to this testing issue, the design and evolution of a web application seems almost easier! Indeed, how to minimize the risk of this acceptance phase, to limit it in time and to limit its "toxicity" in order to avoid regressions or side effects. In short, that each GO turns into a nightmare! Whether it is a collective responsibility changes nothing! What is a P.O worth if he/she is unable to ensure that the product quality is acceptable? This is the subject of books 2 and 3 of this trilogy.
+2. My experience in P.O forced me to take a strong interest in testing. The idea was to overcome with "agility" and in a practical way, one of the most difficult obstacles for a web application (Backoffice, Website): user acceptance testing. In comparison to this testing issue, the design and evolution of a web application seems almost easier! Indeed, how to minimize the risk of this acceptance phase, to limit it in time and to limit its "toxicity" in order to avoid regressions or side effects. In short, that each GO turns into a nightmare! Whether it is a collective responsibility change nothing! What is a P.O worth if he/she is unable to ensure that the product quality is acceptable?
 
 
 ## The continuous learning trilogy
@@ -22,20 +23,18 @@ It all started with a double injunction: on the one hand holding a training cour
 **The good and small "Zambian" guide for WordPress. How to run a News Website with WordPress?**
 
 - Github: [https://github.com/bflaven/book-small-guide-zambia-wordpress-running-news-website](https://github.com/bflaven/book-small-guide-zambia-wordpress-running-news-website)
-- Amazon: [xxx](xxx)
+- Amazon: [https://www.amazon.com/dp/B08645F8DZ/](https://www.amazon.com/dp/B08645F8DZ/)
 
 ### Book #2
 **Defining a testing automation strategy for a P.O. with CODECEPTION_ & WordPress**
 - Github: [https://github.com/bflaven/book-defining-testing-strategy-agile-po-codeception](https://github.com/bflaven/book-defining-testing-strategy-agile-po-codeception)
-- Amazon: [xxx](xxx)
-
-
-
+- Amazon: [https://www.amazon.com/dp/B0864VS2Y6/](https://www.amazon.com/dp/B0864VS2Y6/)
 
 ### Book #3
 **Redefining a testing automation strategy for a P.O. with CodeceptJS & WordPress**
 - Github: [https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs](https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs)
-- Amazon: [xxx](xxx)
+- Amazon: [Coming soon](Coming soon)
+
 
 ## Acknowledgments
 
