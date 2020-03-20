@@ -141,78 +141,78 @@ Again, I was all wrong and I was pretty stubborn so I needed to be convinced... 
 ## Table of content
 
 ### I. Why is this book done?   
-1 Why Now? 
-2 Why CODECEPTION_ (CP)?   
-3 Why WordPress (WP)?  
-4 Caution  
+    1 Why Now? 
+    2 Why CODECEPTION_ (CP)?   
+    3 Why WordPress (WP)?  
+    4 Caution  
 ### II. How This book Is Structured?    
-This book contains 3 big chapters.  
-1 Pioneer or Basic Level   
-2 Settler or Advanced Level    
-3 Leader or Expert Level   
+    This book contains 3 big chapters  
+    1 Pioneer or Basic Level   
+    2 Settler or Advanced Level    
+    3 Leader or Expert Level   
 ### III. Who is this book for?  
-Both as PO and Trainer  
-1 Technology You Need to Understand    
-2 What can you expect from the reading of this book ?  
-3 Online Content   
-4 Conventions Used in This Book    
-5 Acknowledgments  
+    Both as PO and Trainer  
+    1 Technology You Need to Understand    
+    2 What can you expect from the reading of this book ?  
+    3 Online Content   
+    4 Conventions Used in This Book    
+    5 Acknowledgments  
 ### IV. The Importance of Testing   
-Understand the importance of testing    
+    Understand the importance of testing    
 #### 1. Pioneer or Basic Level   
-Quickest way to discover CP 
-1.1 Using MAMP  
-1.2 Custom address for WP in MAMP   
-1.3 Installing a WP in MAMP 
-1.4 Installing CodeCeption with the .phar file  
-HEADS-UP: CodeCeption, WP & MAMP   
-1.5 Frontoffice: Writting a first test for WP   
-1.6 Backoffice: Writting a first test for WP Admin  
-1.7 Extra explanations for Backoffice & Frontoffice.    
-1.8 Conclusion for Pioneer or Basic Level   
+    Quickest way to discover CP 
+    1.1 Using MAMP  
+    1.2 Custom address for WP in MAMP   
+    1.3 Installing a WP in MAMP 
+    1.4 Installing CodeCeption with the .phar file  
+    HEADS-UP: CodeCeption, WP & MAMP   
+    1.5 Frontoffice: Writting a first test for WP   
+    1.6 Backoffice: Writting a first test for WP Admin  
+    1.7 Extra explanations for Backoffice & Frontoffice.    
+    1.8 Conclusion for Pioneer or Basic Level   
 
 #### 2. Settler or Advanced Level    
-Move up to a higher level   
-2.1 Install composer on your computer   
-2.2 Naming convention for your testing strategy 
-2.3 Food for thought : how to "map" an application  
-HEADS-UP: Naming Conventions    
-2.4 Applying these principles to you testing strategy with CP   
-2.5 O.O.P for NOOBs, the Class logic revealed   
-2.6 Internalization: Languages & Tests. 
-2.7 I test, you test, we test...   
-2.8 Tests for WP Settings   
-2.9 Tests for Posts 
-2.10 Tests for Categories and Tags  
-2.11 Test for image upload  
-2.12 Test for WP plugin 
-2.13 Test for WP theme  
-2.14 Test for WP Custom Post Types and Custom Taxonomy  
-2.15 Testing the impact of a plugin on the front    
-2.16 Conclusion for Settler 
+    Move up to a higher level   
+    2.1 Install composer on your computer   
+    2.2 Naming convention for your testing strategy 
+    2.3 Food for thought : how to "map" an application  
+    HEADS-UP: Naming Conventions    
+    2.4 Applying these principles to you testing strategy with CP   
+    2.5 O.O.P for NOOBs, the Class logic revealed   
+    2.6 Internalization: Languages & Tests. 
+    2.7 I test, you test, we test...   
+    2.8 Tests for WP Settings   
+    2.9 Tests for Posts 
+    2.10 Tests for Categories and Tags  
+    2.11 Test for image upload  
+    2.12 Test for WP plugin 
+    2.13 Test for WP theme  
+    2.14 Test for WP Custom Post Types and Custom Taxonomy  
+    2.15 Testing the impact of a plugin on the front    
+    2.16 Conclusion for Settler 
 
 #### 3. Leader or Expert Level   
-Integrating the best practices  
-3.1 Using codeception distribution  
-3.2 Using Suite in Distribution_1 (codeception-distrib-4)   
-3.3 Using CP to make other testing: functional testing  
-3.4 Using CP to make other testing: unit testing    
-3.5 Using Gherkin and .features for acceptance testing  
-3.6 Using pageObject Model for acceptance testing   
-3.7 Using stepObject for acceptance testing 
-3.8 Using dependency injection  
-3.9 Using advanced annotation   
-3.10 Using Docker   
-3.11 How to automate your tests?    
+    Integrating the best practices  
+    3.1 Using codeception distribution  
+    3.2 Using Suite in Distribution_1 (codeception-distrib-4)   
+    3.3 Using CP to make other testing: functional testing  
+    3.4 Using CP to make other testing: unit testing    
+    3.5 Using Gherkin and .features for acceptance testing  
+    3.6 Using pageObject Model for acceptance testing   
+    3.7 Using stepObject for acceptance testing 
+    3.8 Using dependency injection  
+    3.9 Using advanced annotation   
+    3.10 Using Docker   
+    3.11 How to automate your tests?    
 
 #### 4. Conclusion   
-Conclusion  
+    Conclusion  
 
 ### Resources   
-Code avalaible  
+    Code avalaible  
 
 ### Lexicon 
-Some Definitions    
+    Some Definitions    
 
 
 
