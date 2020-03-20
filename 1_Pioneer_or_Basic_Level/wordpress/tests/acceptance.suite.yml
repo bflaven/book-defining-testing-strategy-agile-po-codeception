@@ -1,0 +1,18 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+actor: AcceptanceTester
+modules:
+    enabled:
+        - \Helper\Acceptance
+        - PhpBrowser
+    config:
+        PhpBrowser:
+            # Check in the settings in the fields siteurl and home wp-admin/options-general.php
+            #As you are using MAMP and you have change your hosts file with the line 127.0.0.1 codecept.mydomain.priv, you can use a custom URL.
+            # url: http://localhost/myapp
+            url: http://codecept.mydomain.priv/wordpress
+    step_decorators: ~        
