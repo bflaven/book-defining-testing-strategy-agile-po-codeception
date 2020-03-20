@@ -34,7 +34,7 @@ It all started with a double injunction: on the one hand holding a training cour
 ### Book #3
 **Redefining a testing automation strategy for a P.O. with CodeceptJS & WordPress**
 - Github: [https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs](https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs)
-- Amazon: [Coming soon](Coming soon)
+- Amazon: [https://www.amazon.com/dp/B0865TT96K/](https://www.amazon.com/dp/B0865TT96K/)
 
 
 ## Acknowledgments
