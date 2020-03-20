@@ -1,0 +1,12 @@
+I WANT TO BACKOFFICE :: LOGIN INTO WP ADMIN
+
+I am on page '/wp-login.php' 
+I comment 'Backoffice :: enter username and password for WP' 
+I comment 'Backoffice :: XPATH selector' 
+I fill field '//*[@id="user_login"]'," 'admin' 
+I fill field '//*[@id="user_pass"]','admin' 
+I click 'Log In'," '#wp-submit' 
+I am on page '/wp-admin/' 
+I see 'Dashboard' 
+I see 'Howdy"," admin'
+

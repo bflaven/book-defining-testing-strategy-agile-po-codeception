@@ -1,0 +1,9 @@
+{
+	"require": {
+		"codeception/codeception": "*",
+		"cnam/codeception-json-schema" : "*",
+		"edno/codeception-gherkin-param": "^1.0",
+		"vipnytt/sitemapparser": "~1.0.3",
+        "portrino/phpunit-xsdvalidation": "1.1.0"
+	}
+}
