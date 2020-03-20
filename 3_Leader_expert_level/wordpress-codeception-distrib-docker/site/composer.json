@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "vlucas/phpdotenv": "^4.1",
+        "cnam/codeception-json-schema": "^0.0.1",
+        "edno/codeception-gherkin-param": "^2.0",
+        "codeception/module-db": "^1.0",
+        "codeception/module-filesystem": "^1.0"
+    }
+}

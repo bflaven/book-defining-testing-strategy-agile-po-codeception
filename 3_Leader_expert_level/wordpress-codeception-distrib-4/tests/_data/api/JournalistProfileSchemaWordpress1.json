@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "type",
+    "title",
+    "content",
+    "expertises",
+    "languages",
+    "acf"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "object",
+      "required": [
+        "rendered"
+      ],
+      "properties": {
+        "rendered": {
+          "type": "string"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "rendered",
+        "protected"
+      ],
+      "properties": {
+        "rendered": {
+          "type": "string"
+        },
+        "protected": {
+          "type": "boolean"
+        }
+      }
+    },
+    "expertises": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "acf": {
+      "type": "object",
+      "required": [
+        "twitter_account",
+        "facebook_account",
+        "linkedin_account"
+      ],
+      "properties": {
+        "twitter_account": {
+          "type": "string"
+        },
+        "facebook_account": {
+          "type": "string"
+        },
+        "linkedin_account": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

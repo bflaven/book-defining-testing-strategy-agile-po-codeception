@@ -1,0 +1,25 @@
+actor: AdvancedTester
+modules:
+    enabled:
+        # caution keep the helper for Advanced
+        - \Helper\Advanced
+        - PhpBrowser
+        - Db
+        - Filesystem
+    config:
+        PhpBrowser:
+            # url: http://localhost/myapp
+            url: '%WP_HOST%'
+        Db:
+            dsn: 'mysql:host=%MYSQL_DB_HOST%;dbname=%MYSQL_DB_NAME%;port=%MYSQL_DB_PORT%'
+            user: '%MYSQL_DB_USER%'
+            password: '%MYSQL_DB_PASSWORD%'
+            #dump: 'tests/_data/sql_dump/codecept_test_site_0_empty.sql'
+            #dump: 'tests/_data/sql_dump/codecept_test_site_1_origin.sql'
+            dump: '%MYSQL_DB_DUMP_FILE_PATH%'
+            populate: false # run populator before all tests
+            cleanup: false # run populator before all tests
+            reconnect: true
+            #not in use
+            #populator: 'mysql -u $user -h $host $dbname < $dump'
+    step_decorators: ~ 

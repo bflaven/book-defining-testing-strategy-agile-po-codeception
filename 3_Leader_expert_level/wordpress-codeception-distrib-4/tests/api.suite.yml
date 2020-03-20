@@ -1,0 +1,13 @@
+actor: ApiTester
+modules:
+    enabled:
+        - Asserts
+        - Helper\Api
+        - JsonSchema
+        - REST:
+            depends: PhpBrowser
+            part: Json
+    config:
+      Helper\Api:
+        #pathToWpApi: http://codecept.mydomain.priv/wordpress/wp-json/wp/v2/
+        pathToWpApi: %WP_API_HOST%

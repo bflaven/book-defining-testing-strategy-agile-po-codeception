@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "content",
+    "excerpt"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "rendered": {
+          "type": "string"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "properties": {
+        "rendered": {
+          "type": "string"
+        }
+      }
+    },
+    "excerpt": {
+      "type": "object",
+      "properties": {
+        "rendered": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

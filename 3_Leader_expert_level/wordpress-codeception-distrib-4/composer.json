@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "codeception/codeception": "^3.1",
+        "cnam/codeception-json-schema": "^0.0.1",
+        "vlucas/phpdotenv": "^3.6",
+        "edno/codeception-gherkin-param": "^1.0"
+    }
+}
