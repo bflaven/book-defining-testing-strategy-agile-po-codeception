@@ -10,7 +10,9 @@
 
 Book #2
 
-Defining a testing automation strategy for a P.O with CODECEPTION_ & WordPress (The continuous learning trilogy Book 2)
+Defining a testing automation strategy for a P.O 
+with CODECEPTION_ & WordPress 
+(The continuous learning trilogy Book 2)
 
 https://github.com/bflaven/book-defining-testing-strategy-agile-po-codeception
 
