@@ -27,6 +27,8 @@ php vendor/bin/codecept run --debug --steps acceptance CheckWpBackAddPostTagCest
 
  */
 
+require_once('tests/_data/inc/functions.php');
+
 // Set the languages
 include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/es.php');
@@ -35,22 +37,23 @@ include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/ru.php');
 // include_once('tests/_data/languages/cn.php');
 
-		// extra functions
-		function generateRandomString($length = 10) {
-		    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-		    $charactersLength = strlen($characters);
-		    $randomString = '';
-		    for ($i = 0; $i < $length; $i++) {
-		        $randomString .= $characters[rand(0, $charactersLength - 1)];
-		    }
-		    return $randomString;
-		}//EOF
+
 
 
 
 class CheckWpBackAddPostTagCest
 {
 	
+// extra functions
+    public function generateRandomString($length = 10) {
+            $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $charactersLength = strlen($characters);
+            $randomString = '';
+            for ($i = 0; $i < $length; $i++) {
+                $randomString .= $characters[rand(0, $charactersLength - 1)];
+            }
+            return $randomString;
+    }//EOF
 
     // General
     public function addNewCategory (AcceptanceTester $I)

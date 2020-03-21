@@ -33,6 +33,7 @@ php vendor/bin/codecept run --debug --steps acceptance CheckWpBackNewThemeUpload
 
  */
 
+
 // Set the languages
 include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/es.php');
@@ -42,7 +43,7 @@ include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/cn.php');
 
 
-class CheckWpBackNewThemeUploadZipInstallCest
+class TheCheckWpBackNewThemeUploadZipInstallCest
 {
 		
     public function setUploadInstallTheme (AcceptanceTester $I)

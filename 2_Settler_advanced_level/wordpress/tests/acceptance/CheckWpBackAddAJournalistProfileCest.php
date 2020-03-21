@@ -16,6 +16,7 @@
 NOTE: *** MAKE IT WORK ***
 
 cd /Applications/MAMP/htdocs/wordpress
+php vendor/bin/codecept run --steps acceptance
 
 php vendor/bin/codecept run --steps acceptance CheckWpBackAddAJournalistProfileCest
 
@@ -33,6 +34,8 @@ php vendor/bin/codecept run --debug --steps acceptance CheckWpBackAddAJournalist
 
  */
 
+require_once('tests/_data/inc/functions.php');
+
 // Set the languages
 include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/es.php');
@@ -41,23 +44,14 @@ include_once('tests/_data/languages/en.php');
 // include_once('tests/_data/languages/ru.php');
 // include_once('tests/_data/languages/cn.php');
 
-// extra functions
-		function generateRandomString($length = 10) {
-		    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-		    $charactersLength = strlen($characters);
-		    $randomString = '';
-		    for ($i = 0; $i < $length; $i++) {
-		        $randomString .= $characters[rand(0, $charactersLength - 1)];
-		    }
-		    return $randomString;
-		}//EOF
-
 
 class CheckWpBackAddAJournalistProfileCest
 {
-		
+
+   	
     public function createNewournalistProfile (AcceptanceTester $I)
     {
+
 
 		/* LOGIN */
 		$I->wantTo('Ensure the views for Journalists in Front, based on plugin post_type check codeception_journalist_extended_profile');
