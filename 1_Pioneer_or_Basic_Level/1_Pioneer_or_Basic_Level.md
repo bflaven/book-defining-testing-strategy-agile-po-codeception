@@ -3,7 +3,8 @@
 **This file is designed to facilitate understanding and eventual cut-paste for code chunks appearing in chapter "1 Pioneer or Basic Level" of the book "Defining a testing automation strategy for a P.O. with CODECEPTION_ & WordPress"**
 
 
-## Instructions given in the video
+## Commmands from the video
+
 ```diff
 + BOOK
 
@@ -81,7 +82,7 @@ php codecept.phar g:cest acceptance First
 php vendor/bin/codecept g:cest acceptance First
 
 ```
-
+## Commmands from the book
 
 ```bash
 # add for the testing session
