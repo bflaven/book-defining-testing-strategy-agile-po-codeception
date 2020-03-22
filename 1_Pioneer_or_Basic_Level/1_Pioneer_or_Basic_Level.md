@@ -141,7 +141,7 @@ I need to see the default WordPress site description
 
 ```
 
-**The code by default**
+
 ``` php
 class FirstCest
 {

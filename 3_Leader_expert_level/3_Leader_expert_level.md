@@ -2143,9 +2143,6 @@ echo "\n\n"
 exit 0;
 ```
 
-**To avoid any error regarding the terminal windows, I made a quick test to known if the terminal is open or not and then define a window e.g. window 1 where I set the settings and launch the script. The detection implies the fact if the terminal is closed we will get 2 windows.**
-
-
 ```bash
 @echo off
 : # This file is part of the book package: "Defining a test strategy for a P.O?
