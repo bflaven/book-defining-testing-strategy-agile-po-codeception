@@ -46,7 +46,12 @@ For book #2 & book #3, after a quick benchmark of the market solutions and the c
 [CodeceptJS - https://codecept.io/](https://codecept.io/)
 
 ## Videos
-Coming soon
+
+[![Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](001_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=2yXS9mP3C_U)
+
+
+[![Video #2 Writing the first test with your Codeception install](002_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=2yXS9mP3C_U)
+
 
 
 ## Book Introduction
