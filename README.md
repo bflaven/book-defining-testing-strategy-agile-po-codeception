@@ -52,23 +52,23 @@ For book #2 & book #3, after a quick benchmark of the market solutions and the c
 - [Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](https://www.youtube.com/watch?v=2yXS9mP3C_U)
 [![Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](001_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=2yXS9mP3C_U)
 
-**Video #2 Writing the first test with your Codeception install**
+- [Video #2 Writing the first test with your Codeception install](https://www.youtube.com/watch?v=4y967MWlnYI)
 [![Video #2 Writing the first test with your Codeception install](002_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=4y967MWlnYI)
 
-**Video #3 Testing Post creation with Tags & Categories**
+- [Video #3 Testing Post creation with Tags & Categories](https://www.youtube.com/watch?v=Iixub4_aiLM)
 [![Video #3 Testing Post creation with Tags & Categories](003_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=Iixub4_aiLM)
 
 
-**Video #4 Testing WP API, WP Backoffice Multilingual, WP Frontoffice & using Gherkin**
+- [Video #4 Testing WP API, WP Backoffice Multilingual, WP Frontoffice & using Gherkin](https://www.youtube.com/watch?v=Hp8ynDgB-2c)
 [![Video #4 Testing WP API, WP Backoffice Multilingual, WP Frontoffice & using Gherkin](004_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=Hp8ynDgB-2c)
 
-**Video #5 Automate Testing with a single-click-app to launch the e2e UAT suite**
+- [Video #5 Automate Testing with a single-click-app to launch the e2e UAT suite](https://www.youtube.com/watch?v=HNPD5tDm-Ps)
 [![Video #5 Automate Testing with a single-click-app to launch the e2e UAT suite](005_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=HNPD5tDm-Ps)
 
-**Video #6 Using Docker to make Codeception & Wordpress working together**
+- [Video #6 Using Docker to make Codeception & Wordpress working together](https://www.youtube.com/watch?v=x9BEsLzuhG0)
 [![Video #6 Using Docker to make Codeception & Wordpress working together](006_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=x9BEsLzuhG0)
 
-**Video #7 Launching the "End To End" (E2E) suite to make the WP application's assessment**
+- [Video #7 Launching the "End To End" (E2E) suite to make the WP application's assessment](https://www.youtube.com/watch?v=B_4qnVUr1jY)
 [![Video #7 Launching the "End To End" (E2E) suite to make the WP application's assessment](007_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=B_4qnVUr1jY)
 
 ## Book Introduction
