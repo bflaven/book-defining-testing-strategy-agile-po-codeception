@@ -7,14 +7,17 @@
 
 
 ## Foreword
-It all started with a double injunction: on the one hand holding a training course in Zambia on behalf of the ZNBC and on the other hand my designation as P.O on a backoffice.
+The 3 volumes of the continuous learning trilogy provide a practical synthesis on the best practices I gained as Trainer and Product Owner (P.O) of web application in the Media industry.  
 
+- Book #1: The good and small "Zambian" guide for WordPress. How to run a News Website with WordPress?
 
-1. The Book #1 retrieves all the materials that I have brought with me for a training in Zambia on how to manage and run a news website. I made as intuitive and operational as possible. For a P.O, it is transcription of a “know-how” patiently gathered about digital project management with Agile Scrum. It has been transposed mostly to WordPress so anyone can leverage on it. It retains a maximum of good practices under usual constraints like budget, technics and team.
+- Book #2:  Defining a testing automation strategy for a P.O. with CODECEPTION_ & WordPress
 
+- Book #3: Redefining a testing automation strategy for a P.O. with CodeceptJS & WordPress
 
-2. My experience in P.O forced me to take a strong interest in testing. The idea was to overcome with "agility" and in a practical way, one of the most difficult obstacles for a webapplication (backoffice, website): user acceptance testing. In comparison to this testing issue, the design and evolution of a web application seems almost easier! Indeed, how to minimize the risk of this acceptance phase, to limit this phase in time and its "toxicity" for P.O in order to avoid regressions or side effects. In short, that each GO does not turn into a nightmare! Even though it is a collective responsibility for a team, What is a P.O worth if he/she is unable to ensure that ist product quality is acceptable? With a P.O (Product Owner) mindset, Book #2 & Book #3 tries concretely to answer to these questions with the help of CP (Codeception) and CPJS (CodeceptJS).
+1.  The Book #1 gathers all the materials that I brought with me to deliver a training session in Zambia to a team of journalists from the domestic network ZNBC on how to manage and run a news website. I made as intuitive and operational as possible. It has been transposed mostly to WordPress so anyone can leverage on it. It entails good practices under constraints such as budget, technical environment and team resources.
 
+2.  The Book #2 & Book #3 present my understanding and practical experience of web application testing that I gained as Product Owner (P.O) in the Media industry. In these two books, I focus on user acceptance testing that is one of the biggest challenges for a PO of a large web application (back office, website).  How to minimize the risks of the acceptance phase?  How to master its duration? How to avoid regressions and side effects. Book #2 & Book #3 aim at answering those questions with the help of CP (Codeception) and CPJS (CodeceptJS).
 
 
 
