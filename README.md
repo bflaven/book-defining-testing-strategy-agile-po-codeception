@@ -50,8 +50,6 @@ For book #2 & book #3, after a quick benchmark of the market solutions and the c
 
 ## Videos
 
-
-
 - [Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](https://www.youtube.com/watch?v=2yXS9mP3C_U)
 [![Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](001_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=2yXS9mP3C_U)
 
@@ -78,17 +76,19 @@ For book #2 & book #3, after a quick benchmark of the market solutions and the c
 
 **Ignorant I was :)**
 
-About me, for a long time, I was ignorant about testing, suffering from a signiﬁcant deﬁcit in culture's testing. I must admit, I had negative aprioris, testing was a deceptive subject. To sum up, as a P.O, I found testing was ﬁnally disappointing and useless. I was rather fond for a signiﬁcant manual testing procedure, based on a google doc or excel sheet, and I was wrong!
+I must admit it: I have been slow to recognize the value of testing. As Product Owner (P.O) of a large project of backoffice for a News website, I found testing disappointing and useless. 
+1. I did not see any significant impact of testing on software quality.
 
-The key explaining factors were the following:
+2. I thought tests were boring, time-consuming, expensive without immediate R.O.I
 
-1. I had difﬁculties to see correlation between testing and quality.
+3. I did not find so far a tool that allows you to launch an ambitious testing strategy with a clear visibility on criteria like cost, ability to perform all types of test (unitary, functional and UAT),a good documentation, support from a mature development community, technical prerequisites etc.
 
-2. I found that tests were time-consuming, expensive with no immediate R.O.I and the manual testing was an exploring testing opportunity.
 
-3. I found that tests were boring and also it was hard to estimate both in complexity and ﬁnancial point of view!
+As a result, I preferred manual testing procedure, based on a google doc or excel sheet. But I was wrong!  
 
-Again, I was all wrong and I was pretty stubborn so I needed to be convinced... by myself so here is my sole explanation and selﬁsh for this book.
+**Tests are useful, incredibly time saving for a P.O. It strengthens confidence for the all team into a project. It can even be possibly cool. What an irony!**
+
+And this book is the consequence of my “awaking” ;-)
 
 
 ## Code
