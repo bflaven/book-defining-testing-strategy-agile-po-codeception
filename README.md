@@ -2,7 +2,6 @@
 
 **Below you can find information and code about this book for sale on Amazon: [https://www.amazon.com/dp/B0864VS2Y6/](https://www.amazon.com/dp/B0864VS2Y6/)**
 
-
 ![Redefining a testing automation strategy for a P.O with CodeceptJS & WordPress](cover_book-defining-testing-strategy-agile-po-codeception_400x640.png)
 
 
