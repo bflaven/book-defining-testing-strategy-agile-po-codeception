@@ -6,7 +6,8 @@
 /*
 Plugin Name: codeception_api_route_journalists
 Plugin URI: http://flaven.fr/
-Description: Show class usage and change header and footer. This plugin is part of the book package: "Defining a test strategy for a P.O? Introduction to a "testing" framework CODECEPTION_. Usecase with WordPress.". It requires the plugin codeception_journalist_extended_profile.
+Description: Show class usage and change header and footer. This plugin is part of the book package: "Defining a test strategy for a P.O? Introduction to a "testing" framework CODECEPTION_. Usecase with WordPress.". It requires the plugins: codeception_journalist_extended_profile, ACF to REST API,    
+Advanced Custom Fields.
 Author: Bruno Flaven
 Version: 1.0
 Author URI: http://flaven.fr/
@@ -97,14 +98,28 @@ const PLUGIN_POST_TYPE_TAXO_LANGUAGES='languages';
                         // 'exclude'          => array(),
                         // 'meta_key'         => '',
                         // 'meta_value'       => '',
-                           'post_type'        => ''.trim(self::PLUGIN_POST_TYPE).'',
+                        'post_type'        => ''.trim(self::PLUGIN_POST_TYPE).'',
+                        // 'post_type'        => 'journalists',
+                        
                         );
+
+                // var_dump($args_get_journalists);
+
 
                 // get the posts
                 $posts_list = get_posts( $args_get_journalists);
                 
+                // var_dump($posts_list);
 
                 $post_data = array();
+
+/*
+                foreach( $posts_list as $posts) {
+                    $post_id = $posts->ID;
+                 }
+
+*/
+                
                 foreach( $posts_list as $posts) {
                     $post_id = $posts->ID;
                     $post_author = get_the_author_meta( 'display_name', $posts->post_author );
@@ -127,11 +142,12 @@ const PLUGIN_POST_TYPE_TAXO_LANGUAGES='languages';
                     // $languages = get_the_terms( $posts->ID , 'languages');
 
                     /* V2 */
-                    $expertises = wp_get_post_terms( $posts->ID, ''.trim(self::PLUGIN_POST_TYPE_TAXO_EXPERTISES).'', array( 'fields' => 'all' ) );
+                     $expertises = wp_get_post_terms( $posts->ID, ''.trim(self::PLUGIN_POST_TYPE_TAXO_EXPERTISES).'', array( 'fields' => 'all' ) );
                     $languages = wp_get_post_terms( $posts->ID, ''.trim(self::PLUGIN_POST_TYPE_TAXO_LANGUAGES).'', array( 'fields' => 'all' ) );
 
 
                     // Add to json
+                    
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_FIELD_AUTHOR).'' ] = $post_author;
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_FIELD_TITLE).'' ] = $post_title;
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_FIELD_EXCERPT).'' ] = $post_excerpt;
@@ -141,7 +157,7 @@ const PLUGIN_POST_TYPE_TAXO_LANGUAGES='languages';
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_ACF_LINKEDIN_ACCOUNT).'' ] = $post_linkedin;
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_TAXO_EXPERTISES).'' ] =  $expertises;
                     $post_data[ $post_id ][ ''.trim(self::PLUGIN_POST_TYPE_TAXO_LANGUAGES).'' ] =  $languages;         
-                    
+                
                 }
                 
                 wp_reset_postdata();
