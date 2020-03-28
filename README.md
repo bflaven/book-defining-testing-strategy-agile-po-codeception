@@ -50,7 +50,9 @@ For book #2 & book #3, after a quick benchmark of the market solutions and the c
 
 ## Videos
 
-**All the videos below are avaible on youtube on this playlist: [https://bit.ly/2UAGTic](https://bit.ly/2UAGTic)**
+**All the videos of this Book #2 are available on YouTube in this playlist: [https://bit.ly/2UAGTic](https://bit.ly/2UAGTic)**
+
+
 
 - [Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](https://www.youtube.com/watch?v=2yXS9mP3C_U)
 [![Video #1 Building a testing environment with MAMP and Worpress with a Custom URL](001_book_defining_testing_strategy_agile_po_codeception.png)](https://www.youtube.com/watch?v=2yXS9mP3C_U)
