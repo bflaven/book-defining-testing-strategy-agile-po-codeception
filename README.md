@@ -28,16 +28,20 @@ The 3 volumes of the continuous learning trilogy provide a practical synthesis o
 
 - Github: [https://github.com/bflaven/book-small-guide-zambia-wordpress-running-news-website](https://github.com/bflaven/book-small-guide-zambia-wordpress-running-news-website)
 - Amazon: [https://www.amazon.com/dp/B08645F8DZ/](https://www.amazon.com/dp/B08645F8DZ/)
+- Youtube: [https://bit.ly/3bDSF2x](https://bit.ly/3bDSF2x) 
 
 ### Book #2
 **Defining a testing automation strategy for a P.O. with CODECEPTION_ & WordPress**
 - Github: [https://github.com/bflaven/book-defining-testing-strategy-agile-po-codeception](https://github.com/bflaven/book-defining-testing-strategy-agile-po-codeception)
 - Amazon: [https://www.amazon.com/dp/B0864VS2Y6/](https://www.amazon.com/dp/B0864VS2Y6/)
+- Youtube: [https://bit.ly/2UAGTic](https://bit.ly/2UAGTic)
 
 ### Book #3
 **Redefining a testing automation strategy for a P.O. with CodeceptJS & WordPress**
 - Github: [https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs](https://github.com/bflaven/book-redefining-testing-strategy-agile-po-codeceptjs)
 - Amazon: [https://www.amazon.com/dp/B0865TT96K/](https://www.amazon.com/dp/B0865TT96K/)
+- Youtube: [https://bit.ly/2UpWsdZ](https://bit.ly/2UpWsdZ)
+
 
 
 ## Acknowledgments
