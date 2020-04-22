@@ -7,10 +7,10 @@ I need to manage all my blog posts
   Background: 
     Given I have a vanilla wordpress installation
       | blogname            | email             | username | password | 
-      | My Super Site Title | bflaven@gmail.com | admin    | admin    | 
+      | My Super Site Title | admin@test.com    | admin    | admin    | 
       And there are users
       | user_login | user_pass | user_nicename | user_email        | role          | 
-      | admin      | admin     | admin         | bflaven@gmail.com | administrator | 
+      | admin      | admin     | admin         | admin@test.com    | administrator | 
       And I am on "/wp-login.php"
       And I fill in "#user_login" with "admin"
       And I fill in "#user_pass" with "admin"
