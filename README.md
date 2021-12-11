@@ -174,26 +174,26 @@ And this book is the consequence of my “awaking” ;-)
 
 ## Table of content
 
-### I. Why is this book done?   
+### I. Why is this book done?
     1 Why Now? 
     2 Why CODECEPTION_ (CP)?   
     3 Why WordPress (WP)?  
     4 Caution  
-### II. How This book Is Structured?    
+### II. How This book Is Structured?
     This book contains 3 big chapters  
     1 Pioneer or Basic Level   
     2 Settler or Advanced Level    
     3 Leader or Expert Level   
-### III. Who is this book for?  
+### III. Who is this book for?
     Both as PO and Trainer  
     1 Technology You Need to Understand    
     2 What can you expect from the reading of this book ?  
     3 Online Content   
     4 Conventions Used in This Book    
     5 Acknowledgments  
-### IV. The Importance of Testing   
+### IV. The Importance of Testing
     Understand the importance of testing    
-#### 1. Pioneer or Basic Level   
+#### 1. Pioneer or Basic Level
     Quickest way to discover CP 
     1.1 Using MAMP  
     1.2 Custom address for WP in MAMP   
@@ -205,7 +205,7 @@ And this book is the consequence of my “awaking” ;-)
     1.7 Extra explanations for Backoffice & Frontoffice.    
     1.8 Conclusion for Pioneer or Basic Level   
 
-#### 2. Settler or Advanced Level    
+#### 2. Settler or Advanced Level
     Move up to a higher level   
     2.1 Install composer on your computer   
     2.2 Naming convention for your testing strategy 
@@ -225,7 +225,7 @@ And this book is the consequence of my “awaking” ;-)
     2.15 Testing the impact of a plugin on the front    
     2.16 Conclusion for Settler 
 
-#### 3. Leader or Expert Level   
+#### 3. Leader or Expert Level
     Integrating the best practices  
     3.1 Using codeception distribution  
     3.2 Using Suite in Distribution_1 (codeception-distrib-4)   
@@ -239,13 +239,13 @@ And this book is the consequence of my “awaking” ;-)
     3.10 Using Docker   
     3.11 How to automate your tests?    
 
-#### 4. Conclusion   
+#### 4. Conclusion
     Conclusion  
 
-### Resources   
+### Resources
     Code avalaible  
 
-### Lexicon 
+### Lexicon
     Some Definitions    
 
 
