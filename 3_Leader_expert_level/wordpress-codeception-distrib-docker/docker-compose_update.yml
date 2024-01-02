@@ -1,0 +1,91 @@
+version: '3.1'
+
+services:
+ 
+ #CODECEPTION
+ codecept:
+      image: codeception/codeception
+      depends_on:
+        - wordpress
+        - db
+      volumes: 
+        - ./site:/var/www/html/
+      working_dir: /var/www/html
+      networks:
+        - frontend
+        - backend
+
+ #DATABASE
+ #Description: Do not change db top anything if you want to easily connect with phpmyadmin
+ db:
+   image: mariadb:10.5.8
+   restart: always
+   ports:
+      - 8081:3306
+   environment:
+    MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    MYSQL_DATABASE: ${MYSQL_DATABASE}
+    MYSQL_USER: ${MYSQL_USER}
+    MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+   #Description: Feel free to uncommant the lines below to keep your database data on your computer.
+   #volumes: 
+   #  - ./db:/var/lib/mysql
+   networks:
+      - backend
+   env_file: 
+      - .env
+ #CMS
+ #Description: Launch the famous WP 5 min install via the browser at the URL: http://localhost:8080/
+ wordpress:
+   image: wordpress
+   restart: always
+   ports:
+     - 8080:80
+   depends_on:
+         - db
+   environment:
+      VIRTUAL_HOST: ${VIRTUAL_HOST}
+      VIRTUAL_PORT: ${VIRTUAL_PORT}
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+   # Keep your data
+   volumes: 
+      - ./site:/var/www/html/
+   networks:
+      - frontend
+      - backend
+   env_file: 
+      - .env
+ 
+ #CLI
+ #Description: With make cli, define in the makefile, you access to a WP-CLI for your WP install and pass the tradcionnal commands such as: wp theme list, wp post list, wp post generate --count=100 and so on
+ cli:
+      image: wordpress:cli
+      user: xfs
+      volumes:
+        - ./site:/var/www/html
+      working_dir: /var/www/html
+      networks:
+       - frontend
+       - backend
+
+#PHPMYADMIN
+ #Description: After the famous WP 5 min install, you can connect to the WP database via phpMyAdmin at http://localhost:22222/ with the root user or the one use of the WP install
+ phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      ports:
+          - "22222:80"
+      depends_on:
+          - db
+      networks:
+        - frontend
+        - backend
+        
+# CAUTION Then, run docker network create proxy and start your new container using docker-compose up -d. This will create a network that all our WordPress projects will use (more on that in a minute) and install the proxy that’ll do all the magic.     
+networks:
+  backend:
+  frontend:
+
+ 
